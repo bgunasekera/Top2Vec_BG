@@ -19,6 +19,9 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.preprocessing import normalize
 from scipy.special import softmax
 
+
+print("This is the forked version")
+
 try:
     import hnswlib
 
